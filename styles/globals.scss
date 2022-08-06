@@ -1,0 +1,74 @@
+@import 'typed';
+
+html,
+body {
+  padding: 0;
+  margin: 100px 100px 100px 100px;
+  font-family: -apple-system, BlinkMacSystemFont, MS PGothic, Arial, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.thebigimage {    
+  background-image: url("https://cdn.discordapp.com/attachments/880773829390114846/1005350279903989760/bunnygif.gif");
+  width: 580px;
+  height: 315px;
+  position:relative; /* and this has to be relative */
+} 
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+  }
+  body {
+    color: black;
+    background: white;
+  }
+}
+
+.input-wrapper {
+  display: auto;
+  margin: auto;
+  font-size: 125%;
+  width: 25%;
+  > input,
+  > .placeholder {
+    left:100px; /* play around with this */
+    top:11100px;
+    height:100px;
+    position:absolute;
+    top:0px; /* and play around with this */
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+  }
+  > .welcome {
+    pointer-events: none;
+    @include typed(
+      "hello! welcome to my little website!",
+      "type what you would like to see in the bar above!",
+      1.5,
+      (
+        caret-width: 2px,
+        caret-space: 2px
+      )
+    );
+  }
+  > input {
+    &:focus,
+    &:active {
+      + .placeholder {
+        display: none;
+      }
+    }
+  }
+}
