@@ -2,10 +2,14 @@
 
 html,
 body {
-  padding: 0;
-  margin: 100px 100px 100px 100px;
+  padding: 0px;
   font-family: -apple-system, BlinkMacSystemFont, MS PGothic, Arial, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  display: table;
+  margin:0 auto;
+  overflow-y: clip; // hide vertical
+  width: 100%;
+  height: 100%;
 }
 
 a {
@@ -14,15 +18,11 @@ a {
 }
 
 * {
-  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  user-select: none;
+  -webkit-user-drag: none;
 }
-
-.thebigimage {    
-  background-image: url("https://cdn.discordapp.com/attachments/880773829390114846/1005350279903989760/bunnygif.gif");
-  width: 580px;
-  height: 315px;
-  position:relative; /* and this has to be relative */
-} 
 
 @media (prefers-color-scheme: light) {
   html {
@@ -34,41 +34,77 @@ a {
   }
 }
 
+.welcome{
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  @include typed(
+    "hello! welcome to my website!<[20]>\Ayou can drag all of this site's elements around!<[20]>\A for buttons, just drag them by their hearts!",
+    2.5,
+    (
+      caret-width: 2px,
+      caret-space: 2px
+    )
+  );
+}
+
 .input-wrapper {
-  display: auto;
+  display: flex;
+  position: relative;
+  top: 0px;
+  left: 0%;
+}
+
+.littlebutton {
+  display: table;
+  padding: 10px;
+}
+
+.candywrappink {
+  background-color: pink;
+  padding: 10px;
+}
+
+.candywrapgreen {
+  background-color: #cdf0b4;
+  padding: 10px;
+}
+
+.candywrapyellow {
+  background-color: #f0eeb4;
+  padding: 10px;
+}
+
+.candywraporange {
+  background-color: #fcd9b6;
+  padding: 10px;
+}
+
+.candywrappurple {
+  background-color: #e2b4f0;
+  padding: 10px;
+}
+
+.candywrapblue {
+  background-color: #b4e4f0;
+  padding: 10px;
+}
+
+
+
+
+
+
+.wrapper {
+  display: grid;
+  justify-content: center;
   margin: auto;
-  font-size: 125%;
-  width: 25%;
-  > input,
-  > .placeholder {
-    left:100px; /* play around with this */
-    top:11100px;
-    height:100px;
-    position:absolute;
-    top:0px; /* and play around with this */
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    border: none;
-  }
-  > .welcome {
-    pointer-events: none;
-    @include typed(
-      "hello! welcome to my little website!",
-      "type what you would like to see in the bar above!",
-      1.5,
-      (
-        caret-width: 2px,
-        caret-space: 2px
-      )
-    );
-  }
-  > input {
-    &:focus,
-    &:active {
-      + .placeholder {
-        display: none;
-      }
-    }
-  }
+  grid-template-columns: 350px 350px 350px;
+  column-gap: 10px;
+}
+
+.inside {
+  display: inline-block;
+  place-self: center;
+  background-color: transparent;
 }
