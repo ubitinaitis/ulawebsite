@@ -29,6 +29,7 @@
   justify-content: center;
   align-items: center;
   bottom: 20px;
+  background-color: transparent;
   
 }
 
@@ -37,10 +38,11 @@
   justify-content: center;
   align-items: center;
   
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid white;
   flex-grow: 1;
   position: fixed;
   bottom: 20px;
+    background-color: transparent;
 }
 
 .bannerimage {    

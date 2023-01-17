@@ -8,8 +8,8 @@ import React from 'react'
 function Footer() {
     return (
         <footer className={styles.footer}>
-        <footer className={styles.footerFunky}>by  <a href="https://github.com/ubitinaitis" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>ula bitinaitis</a>  ₍ᐢ. .ᐢ₎ using Next.js</footer>
-    </footer>
+            <footer className={styles.footerFunky}>by  <a href="https://github.com/ubitinaitis" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>ula bitinaitis</a>  ₍ᐢ. .ᐢ₎ using Next.js</footer>
+        </footer>
     )
 }
 

@@ -10,9 +10,9 @@ export default function Home() {
   
   return (
     
-    <div className = {styles.container}>
+    <div className = {styles.container} styles = {{overflowy: "hidden"}}>
             <Draggable>
-                <div class="input-wrapper" style={{ position: "absolute", top: "450px", left: "300px" }}>
+                <div class="input-wrapper" style={{ position: "absolute", top: "450px", left: "300px"}}>
                     <span class="welcome"></span>
                 </div>
             </Draggable>
