@@ -7,7 +7,7 @@ export default function Art() {
     return <Draggable>
         <div style={{
             position: "relative", top: "-250px", left: "100px", width: "1000px", fontSize: "22px", overflowY: "auto",
-            height: "400px", 
+            height: "400px",
         }}>
             i love to draw!! click on any of the drawings to enlarge them!
 
@@ -25,7 +25,7 @@ export default function Art() {
                         src="girls.jpg"
                         class="correct" />
                 </Zoom>
-                
+
                 <Zoom>
                     <img
                         alt="poster for a house show!"
@@ -106,6 +106,34 @@ export default function Art() {
                     <img
                         alt="stressed out yellow girl lol"
                         src="https://pbs.twimg.com/media/Fa1OtzbXgAA02sZ?format=jpg&name=medium"
+                        class="correct" />
+                </Zoom>
+
+                <Zoom>
+                    <img
+                        alt="poster for a house show!"
+                        src="posterguh.png"
+                        class="correct" />
+                </Zoom>
+
+                <Zoom>
+                    <img
+                        alt="poster for a house show!"
+                        src="posterguh.png"
+                        class="correct" />
+                </Zoom>
+
+                <Zoom>
+                    <img
+                        alt="poster for a house show!"
+                        src="posterrr.png"
+                        class="correct" />
+                </Zoom>
+
+                <Zoom>
+                    <img
+                        alt="poster for my radio show!"
+                        src="spacerocks.png"
                         class="correct" />
                 </Zoom>
             </section>

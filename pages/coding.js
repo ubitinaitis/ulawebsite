@@ -46,7 +46,7 @@ export default function Coding() {
             <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
             <h1 class="myHeading" style={{ textDecoration: "underline" }}>mini photoshop</h1>⠀❤
             <h1 class="myHeading2">Java</h1>
-            a fun class project-- a fully working image processing program! it can take file text inputs, or you can work with a responsive UI, to upload, edit, and save images!
+            a fun class project-- a fully working image processing program! it can take file text inputs, or you can work with a responsive UI, to upload, edit, and save images! it uses a model-view-controller framework and command pattern OOD!
             <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
             <h1 class="myHeading" style={{ textDecoration: "underline" }}>automatic maze building + solving</h1>⠀❤
             <h1 class="myHeading2">Java</h1>
