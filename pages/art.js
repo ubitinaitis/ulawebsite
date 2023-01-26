@@ -119,13 +119,6 @@ export default function Art() {
                 <Zoom>
                     <img
                         alt="poster for a house show!"
-                        src="posterguh.png"
-                        class="correct" />
-                </Zoom>
-
-                <Zoom>
-                    <img
-                        alt="poster for a house show!"
                         src="posterrr.png"
                         class="correct" />
                 </Zoom>
