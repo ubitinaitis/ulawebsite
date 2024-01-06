@@ -12,7 +12,7 @@ export default function Home() {
     
     <div className = {styles.container} styles = {{overflowy: "hidden"}}>
             <Draggable>
-                <div class="input-wrapper" style={{ position: "absolute", top: "450px", left: "300px"}}>
+                <div class="input-wrapper" style={{ position: "absolute", alignItems: 'center', justifyContent: 'center'}}>
                     <span class="welcome"></span>
                 </div>
             </Draggable>

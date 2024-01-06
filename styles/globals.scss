@@ -2,24 +2,37 @@
 
 html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, MS PGothic, Arial, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: tangerine;
   display: table;
   margin:0 auto;
   width: 100%;
   overflow-y: hidden;
   overflow-x: hidden;
   height: 100%;
+  background-color: #F7E98D;
 }
 
+@font-face {
+  font-family: tangerine;
+  src: url("tangerine.otf");
+}
 
 .container {
   display: flex;
   flex-flow: column wrap;
   align-content: flex-start;
+<<<<<<< Updated upstream
   height: 2500px;
     grid-template-rows: masonry; 
 }
+=======
+  height: 2000px;
+  grid-template-rows: masonry;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}    
+>>>>>>> Stashed changes
 
 .correct { 
   object-fit: cover; 
@@ -35,7 +48,7 @@ a {
 
 * {
   font-size: 20px;
-  font-weight: bold;
+  letter-spacing: 1px;
   user-select: none;
   -webkit-user-drag: none;
 }
@@ -51,7 +64,7 @@ a.other{
   }
   body {
     color: black;
-    background: white;
+    background: yellow;
   }
 }
 
@@ -61,7 +74,7 @@ a.other{
   pointer-events: none;
   font-size: 26px;
   @include typed(
-    "hello! welcome to my website!<[20]>\Ayou can drag all of this site's elements around...<[20]>\A for the buttons, just drag them by the hearts to their right!",
+    "now playing:<[20]>\Ayou can drag all of this site's elements around...<[20]>\A for the buttons, just drag them by the hearts to their right!",
     2.5,
     (
       caret-width: 2px,
