@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   align-content: flex-start;
-  height: 2000px;
+  height: 2500px;
     grid-template-rows: masonry; 
 }
 
@@ -27,7 +27,6 @@ body {
   width: 300px;
   padding: 10px;
 }
-
 
 a {
   color: inherit;
@@ -112,11 +111,6 @@ a.other{
   background-color: #b4e4f0;
   padding: 10px;
 }
-
-
-
-
-
 
 .wrapper {
   display: grid;

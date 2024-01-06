@@ -7,22 +7,58 @@ export default function Art() {
     return <Draggable>
         <div style={{
             position: "relative", top: "-250px", left: "100px", width: "1000px", fontSize: "22px", overflowY: "auto",
-            height: "400px",
+            height: "500px",
         }}>
-            i love to draw!! click on any of the drawings to enlarge them!
+
+            <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
+            <h1 class="myHeading2">MY ART PORTFOLIO</h1>
+            <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
+
+            click any image to expand it and view it fully! (*＾▽＾)／
+        
+            <br/>
+
+            <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
+            <h1 class="myHeading">Live2D model demo</h1>⠀❤
+            <h1 class="myHeading2">closed captioning provided!</h1>
+            <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
+
+            <div style = {{display: "flex", justifyContent: "center"}}>
+                <iframe src="https://drive.google.com/file/d/1O7TxP2hTHgi69_dVSoeZMTg2fLMcNF0w/preview" width="640" height="360" padding="30px"></iframe>
+            </div>
+
+<br></br>
+            
+            <div style = {{display: "flex", justifyContent: "center"}}>
+                <iframe src="https://drive.google.com/file/d/1stvzlEzbRXU0cAFh-GfbhQJQbvZzQybD/preview" width="640" height="360" padding="30px"></iframe>
+            </div>
+
+            <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
+            <h1 class="myHeading">art process speedpaint</h1>⠀❤
+            <h1 class="myHeading2">a study of Will Coyner's Across the Spiderverse character portraits!</h1>
+            <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
+
+            <div style = {{display: "flex", justifyContent: "center"}}>
+                <iframe src="https://drive.google.com/file/d/1e10nG6FxXvFPL8E4PlQQ4KL-olaGkrmq/preview" width="640" height="360" padding="30px"></iframe>
+            </div>
+
+
+            <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
+            <h1 class="myHeading">general artwork</h1>⠀❤
+            <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
 
             <section class="container">
                 <Zoom>
                     <img
-                        alt="poster for a house show!"
-                        src="poster.png"
+                        alt="a spiderverse portrait style study... of me!"
+                        src="spiderverseportrait.png"
                         class="correct" />
                 </Zoom>
 
                 <Zoom>
                     <img
-                        alt="two girls!"
-                        src="girls.jpg"
+                        alt="poster for a house show!"
+                        src="poster.png"
                         class="correct" />
                 </Zoom>
 
@@ -35,6 +71,48 @@ export default function Art() {
 
                 <Zoom>
                     <img
+                        alt="poster for a house show!"
+                        src="posterguh.png"
+                        class="correct" />
+                </Zoom>
+
+                <Zoom>
+                    <img
+                        alt="poster for a house show!"
+                        src="posterrr.png"
+                        class="correct" />
+                </Zoom>
+
+                <Zoom>
+                    <img
+                        alt="poster for a house show!"
+                        src="houseshow4.png"
+                        class="correct" />
+                </Zoom>
+
+                <Zoom>
+                    <img
+                        alt="poster for a house show!"
+                        src="houseshow5.png"
+                        class="correct" />
+                </Zoom>
+
+                <Zoom>
+                    <img
+                        alt="two girls!"
+                        src="girls.jpg"
+                        class="correct" />
+                </Zoom>
+
+                <Zoom>
+                    <img
+                        alt="poster for my radio show!"
+                        src="spacerocks.png"
+                        class="correct" />
+                </Zoom>
+                
+                <Zoom>
+                    <img
                         alt="my friend mckenna as pixar star lightning mcqueen"
                         src="https://pbs.twimg.com/media/FazPq51WAAEVHAT?format=jpg&name=4096x4096"
                         class="correct" />
@@ -42,15 +120,8 @@ export default function Art() {
 
                 <Zoom>
                     <img
-                        alt="goofy little cat witch"
-                        src="https://pbs.twimg.com/media/FfPpOBqWQAE3exI?format=jpg&name=medium"
-                        class="correct" />
-                </Zoom>
-
-                <Zoom>
-                    <img
-                        alt="me as a witch!"
-                        src="https://pbs.twimg.com/media/FZxK1whWQAITjDQ?format=jpg&name=4096x4096"
+                        alt="a drawing of butangel420"
+                        src="https://pbs.twimg.com/media/F3n8-OLbYAAqx9f?format=jpg&name=4096x4096"
                         class="correct" />
                 </Zoom>
 
@@ -111,22 +182,15 @@ export default function Art() {
 
                 <Zoom>
                     <img
-                        alt="poster for a house show!"
-                        src="posterguh.png"
+                        alt="goofy little cat witch"
+                        src="https://pbs.twimg.com/media/FfPpOBqWQAE3exI?format=jpg&name=medium"
                         class="correct" />
                 </Zoom>
 
                 <Zoom>
                     <img
-                        alt="poster for a house show!"
-                        src="posterrr.png"
-                        class="correct" />
-                </Zoom>
-
-                <Zoom>
-                    <img
-                        alt="poster for my radio show!"
-                        src="spacerocks.png"
+                        alt="merchandise for my previous co-op!"
+                        src="coopmerch.png"
                         class="correct" />
                 </Zoom>
             </section>
