@@ -7,8 +7,12 @@ import React from 'react'
 
 export default function Custom404() {
     return (
-        <div style={{ position: "absolute", top: "450px", left: "300px"}}> 
-        are you lost? this page doesn't exist!
-        </div>
+        <div> 
+
+        <span class="bubble-text" style={{ overflowY: "auto", float: "left", overflowX: "hidden"}}>
+            <div style={{
+                position: "relative",  width: "100%", fontSize: "22px",
+            }}>
+are you lost? this page doesn't exist! @_@</div></span></div>
     )
 }

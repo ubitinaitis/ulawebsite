@@ -215,7 +215,7 @@ function NavBar() {
     }
 
     return (
-        <div className={styles.container}>
+        <div class="mobile-warning2">
 
             <Head>
                 <title>ula bitinaitis</title>
@@ -225,14 +225,14 @@ function NavBar() {
 
             <Draggable>
                 <img src="/websitebanner.gif" draggable="false" style={{
-                    width: 640 * .75, height: 390 * .75, alt: "ula bitinaitis", objectFit: "cover",
-                    onmousedown: "return false", userdrag: "none", position: "relative", top: "50px", left: "70px"
+                    maxWidth: 640 * .75, width: "100%", alt: "ula bitinaitis", objectFit: "cover",
+                    onmousedown: "return false", userdrag: "none", zIndex: "999999"
                 }} />
             </Draggable>
 
-
+            {/* 
             <Draggable>
-                <div className="littlebutton" style={{ position: "relative", top: "-250px", left: "620px" }}>
+                <div className="littlebutton" style={{ }}>
                     <div className="candywrappink">
                         <a href="/about">about me!</a> ❤
                     </div>
@@ -240,7 +240,7 @@ function NavBar() {
             </Draggable>
 
             <Draggable>
-                <div className="littlebutton" style={{ position: "relative", top: "-290px", left: "900px" }}>
+                <div className="littlebutton" style={{ }}>
                     <div className="candywrapblue">
                         <a href="/coding">coding projects!</a> ❤
                     </div>
@@ -248,7 +248,7 @@ function NavBar() {
             </Draggable>
 
             <Draggable>
-                <div className="littlebutton" style={{ position: "relative", top: "-270px", left: "930px" }}>
+                <div className="littlebutton" style={{ }}>
                     <div className="candywrapyellow">
                         <a href="/art">my art!</a> ❤
                     </div>
@@ -256,7 +256,7 @@ function NavBar() {
             </Draggable>
 
             <Draggable>
-                <div className="littlebutton" style={{ position: "relative", top: "-360px", left: "680px" }}>
+                <div className="littlebutton" style={{ }}>
                     <div className="candywrapgreen">
                         <Link href={"https://docs.google.com/document/d/1bw3k0lxT-p5r5ACpsZYpQs_Jy5Di5ITtzwbTkVYPjGo/edit?usp=sharing"}>
                             <a target="_blank">
@@ -267,12 +267,12 @@ function NavBar() {
             </Draggable>
 
             <Draggable>
-                <div className="littlebutton" style={{ position: "relative", top: "-450px", left: "1250px" }}>fun things you can do:</div>
+                <div className="littlebutton" style={{ }}>fun things you can do:</div>
             </Draggable>
 
 
             <Draggable>
-                <div className="littlebutton" style={{ position: "relative", top: "-450px", left: "1250px" }}>
+                <div className="littlebutton" style={{ }}>
                     <div className="candywrapgreen">
                         <Link href={"https://docs.google.com/document/d/1qNBZSG3nfc_zMkDL9os0c4fB2IgZKLLWKeex-YcnLKs/edit?usp=sharing"}>
                             <a target="_blank">
@@ -283,7 +283,7 @@ function NavBar() {
 
 
             <Draggable>
-                <div className="littlebutton" style={{ position: "relative", top: "-450px", left: "1200px" }}>
+                <div className="littlebutton" style={{  }}>
                     <div className="candywrappurple">
                         <a href="javascript:void(0)" onClick={changeRandomASCII}>
                             change the ASCII</a > ❤
@@ -291,66 +291,91 @@ function NavBar() {
                 </div>
             </Draggable>
 
-
-
-            {/* <Draggable>
-                <div className="littlebutton" style={{ position: "relative", top: "-450px", left: "1250px" }}>
-                    <div className="candywrappink">
-                        <a href="javascript:void(0)" onClick={addBunny}>
-                            create a new bunny ❤</a>
-                    </div>
-                </div>
+            <Draggable>
+                <div className="littlebutton" style={{ }}>
+                    <div className="candywraporange">
+                        <a href="/friends">see my friends!</a>❤</div></div>
             </Draggable> */}
 
 
 
-            <Draggable>
-                <div className="littlebutton" style={{ position: "relative", top: "-200px", left: "1300px", marginTop: "-250px" }}>
-                    <div className="candywraporange">
-                        <a href="/friends">see my friends!</a>❤</div></div>
-            </Draggable>
+
+
+
+
+
+
+
 
             <Draggable>
                 <pre style={{
-                    fontFamily: "MS PGothic", position: "absolute", left: "1100px", top: "400px",
+                    fontFamily: "MS PGothic", width: "0px",
+                    position: 'fixed',
+                    top: "50vh", left: "0px",
+
                     display: "inline-block", backgroundColor: "transparent",
+                    zIndex: 99999999999
                 }}>
                     {ASCIIplace}
                 </pre>
             </Draggable>
 
+
+
+
+
+
+
+
+
+
             <Draggable>
-                <img src="/partyhat.gif" draggable="false" style={{ objectFit: "cover", width: "90px",
+                <img src="/partyhat.gif" draggable="false" style={{
+                    objectFit: "cover", width: "90px",
                     onmousedown: "return false", userdrag: "none",
-                    position: "absolute", top: "30px", left: "1100px", zIndex: "999999"
+                    position: 'fixed', top: "30px", left: "10vw", zIndex: "999999"
                 }} />
             </Draggable>
 
             <Draggable>
-                <img src="/bowtie.gif" draggable="false" style={{ objectFit: "cover", width: "130px",
+                <img src="/bowtie.gif" draggable="false" style={{
+                    objectFit: "cover", width: "130px",
                     onmousedown: "return false", userdrag: "none",
-                    position: "absolute", top: "30px", left: "1100px", zIndex: "999999"
+                    position: 'fixed', top: "30px", left: "10vw", zIndex: "999999"
                 }} />
             </Draggable>
 
             <Draggable>
-                <img src="/flower.gif" draggable="false" style={{ objectFit: "cover", width: "80px",
+                <img src="/flower.gif" draggable="false" style={{
+                    objectFit: "cover", width: "80px",
                     onmousedown: "return false", userdrag: "none",
-                    position: "absolute", top: "30px", left: "1100px", zIndex: "999999"
+                    position: 'fixed', top: "30px", left: "10vw", zIndex: "999999"
                 }} />
             </Draggable>
 
             <Draggable>
-                <img src="/glasses.gif" draggable="false" style={{ objectFit: "cover", width: "160px",
+                <img src="/glasses.gif" draggable="false" style={{
+                    objectFit: "cover", width: "160px",
                     onmousedown: "return false", userdrag: "none",
-                    position: "absolute", top: "30px", left: "1100px", zIndex: "999999"
+                    position: 'fixed', top: "30px", left: "10vw", zIndex: "999999"
                 }} />
             </Draggable>
 
             <Draggable>
-                <img src="/magnifyingglass.gif" draggable="false" style={{ objectFit: "cover", width: "130px",
+                <img src="/magnifyingglass.gif" draggable="false" style={{
+                    objectFit: "cover", width: "130px",
                     onmousedown: "return false", userdrag: "none",
-                    position: "absolute", top: "30px", left: "1100px", zIndex: "999999"
+                    position: 'fixed', top: "30px", left: "10vw", zIndex: "999999"
+                }} />
+            </Draggable>
+
+            <Draggable>
+                <img src="/pencil.gif" draggable="false" style={{
+                    objectFit: "cover",
+                    onmousedown: "return false", userdrag: "none",
+                    top: "50vh", left: "30vw", zIndex: "999999",
+
+                    position: 'fixed',
                 }} />
             </Draggable>
         </div>

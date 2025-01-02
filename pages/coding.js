@@ -5,11 +5,13 @@ import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
 export default function Coding() {
-    return <Draggable>
-        <div style={{
-            position: "relative", top: "-250px", left: "150px", width: "1000px", fontSize: "22px", overflowY: "auto",
-            height: "400px", paddingRight: "20px"
-        }}>
+    return <div>
+
+                    <span class="bubble-text" style={{ overflowY: "auto", float: "left", overflowX: "hidden"}}>
+                        <div style={{
+                            position: "relative",  width: "100%", fontSize: "22px",
+                        }}>
+
             <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
             <h1 class="myHeading2">COMPLETE:</h1>
             <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
@@ -26,9 +28,9 @@ export default function Coding() {
             <a href="https://github.com/ubitinaitis/rgbheadband"><h1 class="myHeading" style={{ textDecoration: "underline" }}>rgb neopixel headband</h1></a>⠀❤
             <h1 class="myHeading2">Python, Arduino, 3D Printing, messy soldering...</h1>
 
-            <Zoom><img src="https://cdn.discordapp.com/attachments/777710877636952096/1064641646127501394/image.png" style={{ height: "350px", float: "left" }} /></Zoom><Zoom><img src="https://cdn.discordapp.com/attachments/777710877636952096/1064641565773013013/image.png" style={{ height: "350px" }} /></Zoom>
+            <Zoom><img src="/headband1.png" style={{ height: "350px" }} /></Zoom>
             <br></br>
-            inspired by the light-up rave choker of my lovely friend brooke, i wanted to make a customizeable RGB headband!
+            inspired by the light-up rave choker of my lovely friend <a href='https://breq.dev/projects/outshine' style={{textDecoration: "underline" }}>brooke</a>, i wanted to make a customizeable RGB headband!
             i did this by attaching a neopixel strip to a headband,
             soldered it to an adafruit bluefruit feather arduino, and 3d printing a case to keep the arduino, battery, and other components
             secured and safe to my head. then, i coded the arduino so than when the power is connected and the board is connected to the bluefruit
@@ -59,7 +61,9 @@ export default function Coding() {
             commonly found on platforms like twitter/tumblr/artstation/deviantart/etc. how does it lack this discourse? there are no words at all on this website!
             this is a big project i'm trying to work on on my own!
             <img src="border.gif" style={{ display: "block", width: "900px", height: "10px", marginTop: "10px", marginBottom: "10px" }} />
-        </div></Draggable>
+        </div>
+        </span>
+        </div>
 }
 
 
