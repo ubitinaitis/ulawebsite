@@ -20,25 +20,13 @@ export default function Home() {
 
 
     <div>
-      <div style={{
-        position: "relative", fontSize: "22px",
 
-      }}>
-        <div class="mobile-warning">
-          <div class="speech-bubble" style={{
-          }}>
-            <img src="box1.gif" alt="notebook" style={{
-              width:
-                "100%", height:
-                "100%"
-            }} />
+           
               <div class="input-wrapper" style={{ top: "25%", right: "20%"}}>
                 <span class="welcome"></span>
               </div>
-          </div>
-        </div>
 
-      </div></div>
+      </div>
   )
 
 }
