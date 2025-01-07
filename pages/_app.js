@@ -23,8 +23,8 @@ function MyApp({ Component, pageProps }) {
         position: "relative", fontSize: "22px",
 
       }}>
-        <div class="mobile-warning">
-          <div class="speech-bubble" style={{
+        <div className="mobile-warning">
+          <div className="speech-bubble" style={{
           }}>
             <img src="box1.gif" alt="notebook" style={{
               width:

@@ -9,7 +9,7 @@ export default function Custom404() {
     return (
         <div> 
 
-        <span class="bubble-text" style={{ overflowY: "auto", float: "left", overflowX: "hidden"}}>
+        <span className="bubble-text" style={{ overflowY: "auto", float: "left", overflowX: "hidden"}}>
             <div style={{
                 position: "relative",  width: "100%", fontSize: "22px",
             }}>

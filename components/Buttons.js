@@ -35,34 +35,33 @@ function Buttons() {
         <div className="buttonsss">            
                 <div className={`littlebutton`} style={{ }}>
                     <div className="candywrappink" style={{fontSize: "12px" }} >
-                        <a href="/about" style={{fontSize: "12px" }}>/about</a> ❤
+                        <Link href="/about" style={{fontSize: "12px" }}>/about</Link> ❤
                     </div>
                 </div>
 
                 <div className={`littlebutton`} style={{ }}>
                     <div className="candywrapblue" style={{fontSize: "12px" }}>
-                        <a href="/coding" style={{fontSize: "12px" }}>/code</a> ❤
+                        <Link href="/coding" style={{fontSize: "12px" }}>/code</Link> ❤
                     </div>
                 </div>
 
                 <div className={`littlebutton`} style={{ }}>
                     <div className="candywrapyellow" style={{fontSize: "12px" }}>
-                        <a href="/art" style={{fontSize: "12px" }}>/art</a> ❤
+                        <Link href="/art" style={{fontSize: "12px" }}>/art</Link> ❤
                     </div>
                 </div>
 
                 <div className={`littlebutton`} style={{ }}>
                     <div className="candywraporange" style={{fontSize: "12px" }}>
-                        <a href="/art" style={{fontSize: "12px" }}>/photos</a> ❤
+                        <Link href="/art" style={{fontSize: "12px" }}>/photos</Link> ❤
                     </div>
                 </div>
 
                 <div className={`littlebutton`} style={{ }}>
                     <div className="candywrapgreen" style={{fontSize: "12px" }}>
-                        <Link href={"https://docs.google.com/document/d/1bw3k0lxT-p5r5ACpsZYpQs_Jy5Di5ITtzwbTkVYPjGo/edit?usp=sharing"}>
-                            <a target="_blank" style={{fontSize: "12px" }}>
-                                my resume!</a>
-                        </Link> ❤
+                        <a target="_blank" href="https://docs.google.com/document/d/1bw3k0lxT-p5r5ACpsZYpQs_Jy5Di5ITtzwbTkVYPjGo/edit?usp=sharing">
+                            my resume!
+                        </a> ❤
                     </div>
                 </div>
 
@@ -73,7 +72,7 @@ function Buttons() {
             <Draggable>
                 <div className={`littlebutton`} style={{ }}>
                     <div className="candywrappink">
-                        <a href="/about">/about</a> ❤
+                        <Link href="/about">/about</Link> ❤
                     </div>
                 </div>
             </Draggable>
@@ -81,7 +80,7 @@ function Buttons() {
             <Draggable>
                 <div className={`littlebutton`} style={{ }}>
                     <div className="candywrapblue">
-                        <a href="/coding">/code</a> ❤
+                        <Link href="/coding">/code</Link> ❤
                     </div>
                 </div>
             </Draggable>
@@ -89,7 +88,7 @@ function Buttons() {
             <Draggable>
                 <div className={`littlebutton`} style={{ }}>
                     <div className="candywrapyellow">
-                        <a href="/art">/art</a> ❤
+                        <Link href="/art">/art</Link> ❤
                     </div>
                 </div>
             </Draggable>
@@ -97,7 +96,7 @@ function Buttons() {
             <Draggable>
                 <div className={`littlebutton`} style={{ }}>
                     <div className="candywraporange">
-                        <a href="/photos">/photos</a> ❤
+                        <Link href="/photos">/photos</Link> ❤
                     </div>
                 </div>
             </Draggable>
@@ -105,10 +104,9 @@ function Buttons() {
             <Draggable>
                 <div className={`littlebutton`} style={{ }}>
                     <div className="candywrapgreen">
-                        <Link href={"https://docs.google.com/document/d/1bw3k0lxT-p5r5ACpsZYpQs_Jy5Di5ITtzwbTkVYPjGo/edit?usp=sharing"}>
-                            <a target="_blank">
-                                my resume!</a>
-                        </Link> ❤
+                        <a target="_blank" href={"https://docs.google.com/document/d/1bw3k0lxT-p5r5ACpsZYpQs_Jy5Di5ITtzwbTkVYPjGo/edit?usp=sharing"}>
+                            my resume!
+                        </a> ❤
                     </div>
                 </div>
             </Draggable>

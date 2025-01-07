@@ -8,7 +8,7 @@ export default function About() {
 
         return <div>
   
-                                        <span class="bubble-text" style={{ overflowY: "auto", float: "left" }}>
+                                        <span className="bubble-text" style={{ overflowY: "auto", float: "left" }}>
                                                 <img src="melol.gif" onClick={makeReal} style={{ float: "left" }} />
                                                 hi i'm ula! <a href="https://youtu.be/d4z6i3xkra4?t=4" style={{ color: "hotpink", textDecorationLine: "underline" }}>(OO-la)</a><br></br><br></br> ☆ヾ(*´・∀・)ﾉヾ(・∀・`*)ﾉ☆ <br></br><br></br>i use both she/her and he/him pronouns (either is fine!)<br></br><br></br>
 

@@ -215,7 +215,7 @@ function NavBar() {
     }
 
     return (
-        <div class="mobile-warning2">
+        <div className="mobile-warning2">
 
             <Head>
                 <title>ula bitinaitis</title>
